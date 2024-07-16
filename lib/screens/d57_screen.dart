@@ -28,6 +28,8 @@ class _D57ScreenState extends State<D57Screen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("D57"),
+        backgroundColor: isForward ? Colors.black : Colors.white,
+        foregroundColor: isForward ? Colors.white : Colors.black38,
       ),
       body: Center(
         child: TweenAnimationBuilder(
