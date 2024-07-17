@@ -40,11 +40,11 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const D61Screen()),
-              child: const Text("D61"),
+              child: const Text("D61 - Custom Painter"),
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const D64Screen()),
-              child: const Text("D64"),
+              child: const Text("D64 - Swiper"),
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const LabAnimatedEmojiScreen()),
