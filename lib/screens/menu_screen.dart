@@ -32,11 +32,11 @@ class _MenuScreenState extends State<MenuScreen> {
           children: [
             ElevatedButton(
               onPressed: () => _goToScreen(const D57Screen()),
-              child: const Text("D57 - Implicit Animations"),
+              child: const Text("D57 - Implicit Animation"),
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const D59Screen()),
-              child: const Text("D59 - Explicit Animations"),
+              child: const Text("D59 - Explicit Animation"),
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const D61Screen()),

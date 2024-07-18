@@ -10,7 +10,7 @@ class D59Screen extends StatefulWidget {
 class _D59ScreenState extends State<D59Screen>
     with SingleTickerProviderStateMixin {
   late final AnimationController _controller = AnimationController(
-    duration: const Duration(milliseconds: 1500),
+    duration: const Duration(milliseconds: 2000),
     vsync: this,
   )..repeat();
 
@@ -30,7 +30,7 @@ class _D59ScreenState extends State<D59Screen>
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: const Text("D59"),
+        title: const Text("D59 - Explicit Animation"),
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
@@ -59,11 +59,11 @@ class _D59ScreenState extends State<D59Screen>
                     curve: Curves.bounceIn,
                   ),
                 ),
-                weight: 4,
+                weight: 3,
               ),
               TweenSequenceItem(
                 tween: Tween(begin: 1.0, end: 1.0),
-                weight: 1,
+                weight: 2,
               ),
               TweenSequenceItem(
                 tween: Tween(begin: 1.0, end: 0.0).chain(

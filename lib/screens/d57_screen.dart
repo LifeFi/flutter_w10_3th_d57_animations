@@ -35,7 +35,7 @@ class _D57ScreenState extends State<D57Screen> {
         child: TweenAnimationBuilder(
           tween: Tween(begin: begin, end: end),
           duration: const Duration(seconds: 1),
-          onEnd: () => _toggleDirection(),
+          onEnd: _toggleDirection,
           builder: (context, value, child) => Container(
             width: size.width,
             height: size.height,
