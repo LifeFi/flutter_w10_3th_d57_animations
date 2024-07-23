@@ -5,6 +5,7 @@ import 'package:flutter_w10_3th_d57_animations/screens/d61_screen.dart';
 import 'package:flutter_w10_3th_d57_animations/screens/d64_screen.dart';
 import 'package:flutter_w10_3th_d57_animations/screens/lab_animated_emoji_screen.dart';
 import 'package:flutter_w10_3th_d57_animations/screens/lab_fl_chart_screen.dart';
+import 'package:flutter_w10_3th_d57_animations/screens/lab_flutter_animate_screen.dart';
 import 'package:flutter_w10_3th_d57_animations/screens/lab_loading_animation_screen.dart';
 import 'package:flutter_w10_3th_d57_animations/screens/lab_weather_animation_screen.dart';
 
@@ -44,7 +45,11 @@ class _MenuScreenState extends State<MenuScreen> {
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const D64Screen()),
-              child: const Text("D64 - Swiper"),
+              child: const Text("D64 - Flashcards App"),
+            ),
+            ElevatedButton(
+              onPressed: () => _goToScreen(const LabFlutterAnimateScreen()),
+              child: const Text("Flutter Animte"),
             ),
             ElevatedButton(
               onPressed: () => _goToScreen(const LabAnimatedEmojiScreen()),
