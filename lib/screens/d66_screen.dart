@@ -15,7 +15,7 @@ List<Map<String, dynamic>> gameData = [
     "postImage": "assets/images/dave the dive_post.jpg",
     "headerImage": "assets/images/dave the dive_header.jpg",
     "url": "https://store.steampowered.com/app/1868140/_/",
-  },
+  },  
   {
     "title": "The Wandering Village",
     "description":
